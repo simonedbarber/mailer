@@ -2,8 +2,9 @@ package mailer
 
 import (
 	"fmt"
-	"html/template"
 	"testing"
+
+	"github.com/simonedbarber/go-template/html/template"
 )
 
 func TestTemplateAddFuncMap(t *testing.T) {

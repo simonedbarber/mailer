@@ -1,9 +1,10 @@
 package mailer
 
 import (
-	"html/template"
 	"net/http"
 	"net/url"
+
+	"github.com/simonedbarber/go-template/text/template"
 )
 
 // Template email template
